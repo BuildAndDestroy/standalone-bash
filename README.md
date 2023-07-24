@@ -12,7 +12,7 @@ cd build_bash/debian
 docker build -t debian-bash-standalone .
 docker run --rm -it debian-bash-standalone bash
 
-# Using another container
+# Using another terminal
 
 docker container ls
 docker cp <CONTAINER ID>::/opt/bash-5.2.15/bash .
